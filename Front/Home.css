@@ -28,3 +28,21 @@
 .tbbody {
     text-align: center;
 }
+
+.fb-iframe {
+    margin: 5%;
+}
+
+.fb-page {
+    padding: 1%;
+    text-align: center;
+    border: 1px solid black;
+    background-color: #c583c6;
+}
+
+.fb-post {
+    padding: 1%;
+}
+.fb-post2 {
+    text-align: right;
+}

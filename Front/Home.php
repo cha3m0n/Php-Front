@@ -113,6 +113,26 @@
         </table>
       </div>
       <!-- End of Announcement Box -->
+      
+      <br><br><br><br>
+      <div class="fb-iframe">
+        <!-- iframe facebook page plugin -->
+        <div class="fb-page">
+          <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FCvSUTC&tabs=timeline&width=500&height=70&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="70" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </div>
+        <!-- end of iframe facebook page plugin -->
+        
+        <!-- iframe facebook post plugin -->
+        <div class="fb-post">
+          <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto%2F%3Ffbid%3D846208657298112%26set%3Da.576850760900571&width=750&show_text=true&height=660&appId" width="500" height="660" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+
+        </div>
+
+        <div class="fb-post2">
+        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto%2F%3Ffbid%3D999563454825997%26set%3Da.748825163233162&width=500&show_text=true&height=536&appId" width="500" height="660" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        </div>
+        <!-- end of iframe facebook post plugin -->
+      </div>
 
     </div>
 
