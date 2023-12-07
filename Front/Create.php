@@ -76,7 +76,32 @@
 
   <section class="home-section">
     <div id="main-content">
-      
+      <div class="crthead">
+        Create a post
+      </div>
+      <div id="post-form">
+          <form>
+            <!-- dropdown || take from community database -->
+              <select id="communityDropdown">
+                <option value="" disabled selected>Choose a community</option>
+                <option value="community1">Community 1</option>
+                <option value="community2">Community 2</option>
+                <option value="community3">Community 3</option>
+              </select>
+              <!-- dropdown -->
+              <br>
+              <br>
+              <input type="text" id="title" name="title" placeholder="Give this post a title" required>
+
+              <textarea id="content" name="content" rows="4" placeholder="Write your post here" required></textarea>
+
+              <div class="btn">
+              <div class="btn-submit"> <button type="submit">Post</button> </div>
+              <div class="btn-cancel"> <button type="submit">Cancel</button> </div>
+              </div>
+              
+          </form>
+      </div>
     </div>
 
   </section>
