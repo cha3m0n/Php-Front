@@ -33,16 +33,30 @@
     margin: 5%;
 }
 
-.fb-page {
-    padding: 1%;
-    text-align: center;
-    border: 1px solid black;
+.social-fb {
     background-color: #c583c6;
+    padding: 3%;
+
+    text-align: center;
+    font-size: large;
+
 }
 
-.fb-post {
-    padding: 1%;
+.fb-page {
+    text-align: center;
 }
-.fb-post2 {
-    text-align: right;
+
+
+.fb-post {
+    border-spacing: 50px;
+}
+
+.post-uno {
+    border: 3px solid #84c683;
+    border-radius: 10px;
+}
+
+.post-dos {
+    border: 3px solid #84c683;
+    border-radius: 10px;
 }
