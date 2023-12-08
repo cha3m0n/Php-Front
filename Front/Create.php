@@ -41,6 +41,13 @@
      </li>
      <li>
        <a href="#">
+          <i class='bx bx-plus'></i>
+         <span class="links_name">Create Post</span>
+       </a>
+       <span class="tooltip">Create Post</span>
+     </li>
+     <li>
+       <a href="#">
           <i class='bx bx-food-menu'></i>
          <span class="links_name">My Post</span>
        </a>
@@ -77,11 +84,11 @@
   <section class="home-section">
     <div id="main-content">
       <div class="crthead">
-        Create a post
-      </div>
       <div id="post-form">
-          <form>
-            <!-- dropdown || take from community database -->
+      <h2>Create a Post</h2>
+      <br><br><form>
+            
+            <!-- dropdown || display community database -->
               <select id="communityDropdown">
                 <option value="" disabled selected>Choose a community</option>
                 <option value="community1">Community 1</option>
@@ -90,17 +97,20 @@
               </select>
               <!-- dropdown -->
               <br>
-              <br>
+              <label for="title">Title:</label>
               <input type="text" id="title" name="title" placeholder="Give this post a title" required>
-
+              
+              <label for="category">Category:</label>
               <textarea id="content" name="content" rows="4" placeholder="Write your post here" required></textarea>
 
               <div class="btn">
               <div class="btn-submit"> <button type="submit">Post</button> </div>
               <div class="btn-cancel"> <button type="submit">Cancel</button> </div>
               </div>
-              
+            </td>
           </form>
+      </div>
+      
       </div>
     </div>
 
