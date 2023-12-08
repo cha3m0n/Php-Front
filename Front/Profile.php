@@ -9,8 +9,8 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <style>
       <?php include 'sidebar.css'; ?>
-      <?php include 'banner.css'; ?>
-      <?php include 'Home.css'; ?>
+      <?php include 'Profile.css'; ?>
+      <?php include 'style.css'; ?>
       <?php include 'footer.css'; ?>
      </style>
    </head>
@@ -83,75 +83,22 @@
   </div>
   <!-- end of sidebar -->
 
-  <section class="home-section">
-    <div id="main-content">
-            <!-- banner -->
-            <div class="header-background">   
-            <span class="title-huge"><strong>Tanza Academic Forum</strong></span>
-            </div>
-            <!-- end of banner -->
-      
-      <!-- Announcement Box -->
-      <div class="box">
-        <div class="ann">
-          <div class="annhead">
-            <i class='bx bxs-megaphone'>
-            <strong> Announcement </strong>
-            </i>
-          </div>
-        </div>
 
-        <table class="tbann">
-          <tr class="tbhead">
-            <th>Title</th>
-            <th>Content</th>
-            <th>Date Created</th>
-          </tr>
-          <tr class="tbbody"> <!-- This should be generated -->
-            <td>Sample title</td>
-            <td>Sample Content</td>
-            <td>12/25/2025</td>
-          </tr>
-          <tr class="tbbody">
-            <td>Server Maintenance</td>
-            <td>Fixing Database</td>
-            <td>12/05/2023</td>
-          </tr>
-        </table>
-      </div>
-      <!-- End of Announcement Box -->
-      
-      <br><br><br><br>
-
-      <div class="social-fb">
-        Check CVSU Tanza Facebook
-      </div>
-
-      <div class="fb-iframe">
-        <!-- iframe facebook page plugin -->
-        <div class="fb-page">
-          <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FCvSUTC&tabs=timeline&width=500&height=70&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="70" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-        </div>
-        <!-- end of iframe facebook page plugin -->
-        <br>
-
-        <!-- iframe facebook post plugin -->
-        <table class="fb-post">
-          <td class="post-uno"><iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fphoto%2F%3Ffbid%3D846208657298112%26set%3Da.576850760900571&width=750&show_text=true&height=660&appId" width="500" height="585" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-          </td>
-          <td class="post-dos"><iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FCvSUTC%2Fposts%2Fpfbid0KFjPCqmn4M3Ft7P8sPU3U3cdFgPYpTWyeKriyo9tNbztNipr98qZM33G1vVq39wul&width=660&show_text=true&height=586&appId" width="500" height="586" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-          </td>
-          </table>
-        <!-- end of iframe facebook post plugin -->
-      </div>
-
+  <div class="bg-cover"></div>
+  <div class="container">
+    <div class="middle">
+      <img src="Image\choso cat.jpg" alt="" class="user-pic" />
+      <h4 class="name">Ryam Montana</h4>
+      <h4 class="course">BSIT</h4>
     </div>
+    <div class="post">
+      <h4 class="profile-status">This profile is hidden</h4>
+    </div>
+  </div>
 
-
-
-
-    <!-- footer -->
-    <footer>
+  <br><br><br><br><br><br><br><br><br><br>
+  <!-- footer -->
+  <footer>
         <div class="footer-content">
             <div class="footer-section about">
                 <h2>About Us</h2>
@@ -162,7 +109,6 @@
                 <h2>Contact Us</h2>
                 <p>Email: your@email.com</p>
                 <p>Phone: +123 456 789</p>
-                <!-- Add more contact information as needed -->
             </div>
         </div>
         <div class="footer-bottom">
@@ -170,11 +116,8 @@
         </div>
     </footer>
     <!-- End of footer -->
-  
-  </section>
 
-
-  <script>
+    <script>
   let sidebar = document.querySelector(".sidebar");
   let closeBtn = document.querySelector("#btn");
   let searchBtn = document.querySelector(".bx-search");
@@ -198,5 +141,6 @@
    }
   }
   </script>
+
 </body>
 </html>
